@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+}
+
+#selected {
+    background-color: rgba(211, 211, 211, 0.785);
+}
+
+.navbar {
+    display: flex;
+    height: 50px; 
+    background-color: royalblue;
+}
+
+.navbar-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;           /* Allows the content to grow */
+    padding: 0 10px;        /* Adds padding to the sides */
+}
+
+#searchBar {
+    flex-grow: 0.5;           /* Stretches the search bar */
+    padding: 5px;           /* Adds padding inside the search bar */
+    font-size: 16px;        /* Font size */
+}
