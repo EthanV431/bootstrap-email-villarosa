@@ -12,16 +12,33 @@ body {
     background-color: royalblue;
 }
 
-.navbar-content {
+.navbar .container-fluid {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    flex-grow: 1;           /* Allows the content to grow */
-    padding: 0 10px;        /* Adds padding to the sides */
 }
 
-#searchBar {
+.navbar .form-control {
     flex-grow: 0.5;           /* Stretches the search bar */
     padding: 5px;           /* Adds padding inside the search bar */
     font-size: 16px;        /* Font size */
+}
+
+.list-group-item {
+    background-color: white;
+    border: 1px solid #ddd;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.btn {
+    margin-right: 10px;
 }
